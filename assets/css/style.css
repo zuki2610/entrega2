@@ -1,0 +1,472 @@
+/*ESTILOS GLOBALES*/
+* {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    font-size: 17px;
+    margin: 0;
+}
+a{
+    color: #000;
+}
+button {
+    background-color: #7E5954;
+    border: 1px solid #000;
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+    border: none;
+    border-radius: 5vw;
+    padding: 13px 28px;
+}
+/*ESTILOS DEL HEADER*/
+header {
+    background-color: #FEB2A8;
+    padding: 20px 0;
+}
+.container
+{
+    display: flex;
+    display: inline-flex;
+    align-items: center; 
+    width: 98vw;   
+}
+.menuDesktop {
+    background-color: #D3948C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0vw;
+    padding-right: 13vw;
+    border-radius: 10px;
+    box-shadow: inset 0px 9px 9px 0px #ffffff;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    width: 20%;;
+    margin-left: 20vw;
+}
+#menuToggle, .fa-bars {
+    visibility: hidden;
+}
+
+.header-desktop {
+    display: flex;
+    gap: 20px;
+    color: #000000;
+}
+.contact-desktop {
+    margin-left: 20vw;   
+} 
+.ahead {
+    color: #fff;
+}
+/*ESTILOS DE LA HERO-SECTION*/
+.heroContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .textHero {
+    color: #232c50;
+    font-weight: 700;
+    font-size: 7vh;
+  }
+  .textHero {
+    margin-left: 6vw;
+  }
+  .subTextHero {
+    color: #232c50;
+    font-weight: 400;
+    font-size: 4vh;
+    margin-top: 2vh;
+    margin-left: 6vw;
+  }
+  .btnHero {
+    background-color: #e1b2ac;
+    border: 1px solid #5c4e4c;
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+    border: none;
+    border-radius: 5vw;
+    padding: 13px 28px;
+    margin-left: 44vw;
+    margin-top: 4vh;
+  }
+  /*ESTILOS DEL BANNER*/
+  .banner {
+    height: 12vh;
+    background-color: #CEABB1;
+  }
+  .bannerText {
+    color: #232C50;
+    font-weight: 700;
+    font-size: 4vh;
+    margin-left: 33vw;
+    margin-top: 2vh;
+    padding-top: 3vh;
+  }
+    /*ESTILOS DE LA SECCION CURSOS*/
+ .bgCursos {
+    background-color: #f7edfc61;
+    height: 49vh;
+    border-bottom: 0;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    overflow: hidden;
+ }
+ .info-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+}
+.text-card {
+    padding-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+    width: 40%
+}
+
+.buttondesk {
+    background-color: #e1b2ac39;
+    color: rgb(14, 14, 14);
+    position: absolute;
+    z-index: -1;
+    padding: 2vh 2vw 2vh;
+    padding-left: 2vw;
+    margin-left: 4vw;
+    display: flex;
+    align-items: center;
+    width: 25vw;
+}
+.order {
+    display: flex;
+}
+.secondary {
+    color: rgb(139, 139, 141);
+    padding: 5vh 2vw 5vh;
+}
+  /*ESTILOS DEL SUBTITULO*/
+  .subtitle {
+    margin-top: 5vh;
+    color: rgba(36, 46, 83, 1);
+    font-size: 39.21px;
+    text-align: center;
+}
+/*ESTILOS DE LA SECCION EXPERIENCIAS*/
+.experienciasContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.cardImage {
+    position: absolute;
+    z-index: 50;
+    top: -4vh;
+    left: 35%;
+    height: 12vh;
+    width: 12vh;
+    border-radius: 50%;
+}
+.carddesk {
+    display: inline-block;
+    width: 60%;
+    height: 22vh;
+    background-color: #f2d9f225;
+    position: relative;
+    margin: 10vh 0;
+    line-height: 27px;
+    padding-top: 9vh;
+    display: flex;
+}
+.cardText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.parrafo {
+    margin-left: 4vh;    
+}
+.cardExperiencias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*ESTILOS DE LA SECCION EVENTOS*/
+.eventosContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: #CEABB1;
+    color: white;
+    padding: 4vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-team-desk h2 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 5vh;
+    width: 45%
+}
+.eventosText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+.h2eventos {
+    font-size: 39.21px;
+    margin-left: 24vw;
+}
+.pEventos {
+    margin-top: 2vh;
+    margin-left: 10vw;
+    margin-right: -14vw;
+}
+/*ESTILOS DEL FOOTER*/
+.logosocial {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 5vw;
+}
+.footerdesk {
+    background-color: #9c8387;
+    display: flex;
+    flex-direction: column;
+}
+.inputContainer {
+    margin-left: 10vw;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+  }
+  input {
+    border-radius: 5vw;
+    padding: 10px 66px;
+    padding-left: 9px;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+.butonfooter {
+    margin-left: 2vw;
+}
+.copyright {
+    color: #fff;
+    font-size: 16px;
+    margin-left: 35vw;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+.social {
+    color:#f1e7e5;
+    font-size: 35px;
+}
+/*MEDIA QUERIES DEL HOME PAGE*/
+@media screen and (max-width: 767px) {
+
+    /* Estilos para dispositivos móviles */
+    /* Ancho máximo de 767px */
+/*estilos del header*/
+    .menuMobile {
+    visibility: hidden;
+    }
+  /* estilos para el icono de la barra */
+  .fa-bars {
+    cursor: pointer;
+    display: block;
+    font-size: 7.5vh;
+    margin-left: 3vw;
+    margin-top: 2vh;
+  }
+  /* estilos para el input de tipo checkbox */
+#menuToggle {
+    display: none;
+  }
+  /* mostrar el menuMobile cuando el input de tipo checkbox está seleccionado */
+#menuToggle:checked ~ .menuMobile  {
+    visibility: visible;
+    background-color: #D3948C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 27vh;
+    width: 15vw;
+    position: absolute;
+    z-index: 1;
+    margin-left: 38vw;
+    margin-top: 5vh;
+    }
+    .header-desktop {
+        display: flex;
+        gap: 20px;
+        color: #000000;
+        flex-direction: column;
+        align-content: center;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .fa-bars {
+        visibility: visible;
+        display: block;
+        font-size: 7.5vh;
+        margin-left: 52vw;
+        margin-top: 2vh;
+    }
+    .contact-desktop {
+        visibility: hidden;   
+    } 
+    /*estilos de la hero-section
+/*ESTILOS DE LA HERO-SECTION*/
+.heroContent{
+    flex-direction: column;
+  }
+  /*ESTILOS DEL BANNER*/
+  .bannerText {
+    font-size: 2.8vh;
+    margin-left: 2vw;
+    margin-top: 2vh;
+    padding-top: 4vh;
+  }
+ /*ESTILOS DE LA SECCION CURSOS*/
+ .bgCursos {
+    background-color: #f7edfc87;
+    height: 74vh;
+ }
+ .info-text {
+    display: flex;
+    flex-direction: column;
+}
+.text-card {
+    padding-top: 2vh;
+    flex-direction: column;
+    margin-left: 15vw;
+    width: 90%
+}
+
+.buttondesk {
+    background-color: #e1b2ac39;
+    color: rgb(49, 45, 45);
+    position: absolute;
+    z-index: -1;
+    padding: 2vh 2vw 2vh;
+    padding-left: 14vw;
+    margin-left: 5vw;
+    display: flex;
+    align-items: center;
+    width: 45vw;
+}
+.order {
+    display: flex;
+}
+.secondary {
+    color: rgb(139, 139, 141);
+    padding: 5vh 2vw 5vh;
+}
+/*ESTILOS DE LA SECCION EXPERIENCIAS*/
+.exp1 {
+    display: none;
+}
+/*ESTILOS DEL FOOTER*/
+.copyright {
+    margin-left: 5vw;
+}
+}
+
+  
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    /* Estilos para tabletas */
+    /* Ancho mínimo de 768px y máximo de 991px */
+    /*estilos del header*/
+    .menuMobile {
+        visibility: hidden;
+        }
+    .contact-desktop {
+            visibility: visible;
+            margin-left: 1vw;   
+        }
+    
+      /* estilos para el icono de la barra */
+      .fa-bars {
+        visibility: visible;
+        cursor: pointer;
+        display: block;
+        font-size: 7.5vh;
+        margin-left: 58vw;
+        margin-top: 2vh;
+      }
+      /* estilos para el input de tipo checkbox */
+    #menuToggle {
+        display: none;
+      }
+      /* mostrar el menuMobile cuando el input de tipo checkbox está seleccionado */
+    #menuToggle:checked ~ .menuMobile  {
+    visibility: visible;
+    background-color: #D3948C;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 45vw;
+    padding-right: 4vw;
+    position: absolute;
+    z-index: 1;
+    margin-left: 22vw;
+    margin-top: 1vh;
+    }
+    .header-desktop {
+            display: flex;
+            gap: 20px;
+            color: #000000;
+            flex-direction: row;
+            align-content: center;
+            justify-content: flex-end;
+            align-items: flex-start;
+        }
+/*estilos de la hero-section*/
+/*ESTILOS DE LA HERO-SECTION*/
+.heroContent{
+    flex-direction: column;
+  }
+ /*ESTILOS DEL BANNER*/
+  .bannerText {
+    margin-left: 13vw;
+  }
+ /*ESTILOS DE LA SECCION CURSOS*/
+ .bgCursos {
+    background-color: #d3948c24;
+    height: 47vh;
+ }
+
+.text-card {
+    padding-top: 2vh;
+    margin-left: 2vw;
+}
+
+.buttondesk {
+    background-color: #e1b2ac33;
+    padding-left: 7vw;
+    margin-left: 2vw;
+    width: 25vw;
+}
+/*ESTILOS DE LA SECCION EXPERIENCIAS*/
+.exp1 {
+    display: none;
+}
+.cardImage {
+    left: 39%;
+    }
+}
+      
+  

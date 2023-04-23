@@ -1,0 +1,220 @@
+/*ESTILOS GLOBALES*/
+* {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    font-size: 17px;
+    margin: 0;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+button {
+    background-color: #7E5954;
+    border: 1px solid #000;
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+    border: none;
+    border-radius: 5vw;
+    padding: 13px 28px;
+    text-decoration: none;
+}
+/*ESTILOS DEL HEADER*/
+header {
+    background-color: #FEB2A8;
+    padding: 20px 0;
+}
+.container
+{
+    display: flex;
+    display: inline-flex;
+    align-items: center;    
+}
+.menuDesktop {
+    background-color: #D3948C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: inset 0px 9px 9px 0px #ffffff;
+    padding-top: 2vh;
+    width: 32vw;
+    margin-left: 20vw;
+}
+#menuToggle, .fa-bars {
+    visibility: hidden;
+}
+
+.header-desktop {
+    display: flex;
+    gap: 20px;
+    color: #000000;
+}
+.contact-desktop {
+    margin-left: 10vw;   
+} 
+.ahead {
+    color: #fff;
+}
+/*Estilos de CONTACTO*/
+.contact-section {
+    width: 80vw;
+    margin-left: 10vw;
+}
+/*ESTILOS DEL FOOTER*/
+.logosocial {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 5vw;
+}
+.footerdesk {
+    background-color: #9c8387;
+    display: flex;
+    flex-direction: column;
+}
+.inputContainer {
+    margin-left: 10vw;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+  }
+  input {
+    border-radius: 5vw;
+    padding: 10px 66px;
+    padding-left: 9px;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+.butonfooter {
+    margin-left: 2vw;
+}
+.copyright {
+    color: #fff;
+    font-size: 16px;
+    margin-left: 35vw;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+.social {
+    color:#f1e7e5;
+    font-size: 35px;
+}
+/*MEDIA QUERIES DEL HOME PAGE*/
+@media screen and (max-width: 767px) {
+
+    /* Estilos para dispositivos móviles */
+    /* Ancho máximo de 767px */
+/*estilos del header*/
+    .menuMobile {
+    display: none;
+    }
+  /* estilos para el icono de la barra */
+  .fa-bars {
+    cursor: pointer;
+    display: block;
+    font-size: 7.5vh;
+    margin-left: 3vw;
+    margin-top: 2vh;
+  }
+  /* estilos para el input de tipo checkbox */
+#menuToggle {
+    display: none;
+  }
+  /* mostrar el menuMobile cuando el input de tipo checkbox está seleccionado */
+#menuToggle:checked ~ .menuMobile  {
+    visibility: visible;
+    background-color: #D3948C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 32vh;
+    width: 32vw;
+    position: absolute;
+    z-index: 1;
+    margin-left: 38vw;
+    margin-top: 7vh;
+    }
+    .header-desktop {
+        display: flex;
+        gap: 20px;
+        color: #000000;
+        flex-direction: column;
+        align-content: center;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .fa-bars {
+        visibility: visible;
+        display: block;
+        font-size: 7.5vh;
+        margin-left: 52vw;
+        margin-top: 2vh;
+    }
+    .contact-desktop {
+        display: none;   
+    } 
+ 
+/*ESTILOS DEL FOOTER*/
+.copyright {
+    margin-left: 5vw;
+}
+}
+
+  
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    /* Estilos para tabletas */
+    /* Ancho mínimo de 768px y máximo de 991px */
+    /*estilos del header*/
+    .menuMobile {
+        display: none;
+        }
+    .contact-desktop {
+            display: none;  
+        }
+    
+      /* estilos para el icono de la barra */
+      .fa-bars {
+        visibility: visible;
+        cursor: pointer;
+        display: block;
+        font-size: 7.5vh;
+        margin-left: 58vw;
+        margin-top: 2vh;
+      }
+      /* estilos para el input de tipo checkbox */
+    #menuToggle {
+        display: none;
+      }
+      /* mostrar el menuMobile cuando el input de tipo checkbox está seleccionado */
+    #menuToggle:checked ~ .menuMobile  {
+    visibility: visible;
+    background-color: #D3948C;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 55vw;
+    padding-right: 4vw;
+    position: absolute;
+    z-index: 1;
+    margin-left: 18vw;
+    margin-top: 1vh;
+    }
+    .header-desktop {
+            display: flex;
+            gap: 20px;
+            color: #000000;
+            flex-direction: row;
+            align-content: center;
+            justify-content: flex-end;
+            align-items: flex-start;
+        }
+
+}
+      
+  
