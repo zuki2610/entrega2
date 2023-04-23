@@ -378,6 +378,13 @@ header {
 .exp1 {
     display: none;
 }
+/*Estilos de la seccion eventos*/
+.pEventos {
+    display:none;
+}
+.h2eventos {
+    margin-left: 0vw;
+}
 /*ESTILOS DEL FOOTER*/
 .copyright {
     margin-left: 5vw;
@@ -467,6 +474,13 @@ header {
 .cardImage {
     left: 39%;
     }
+/*Estilos de la seccion eventos*/
+.pEventos {
+    margin-left: 0vw;
+}
+.h2eventos {
+    margin-left: 20vw;
+}
 }
       
   
