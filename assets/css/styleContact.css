@@ -217,4 +217,49 @@ header {
 
 }
       
+/*ESTILOS DE LAS EXPERIENCIAS*/
+.cardExperiencia {
+    height: 26vh;
+    background-color: #fffcfc91;
+    position: relative;
+    margin: 4vh 2vw 4vh 2vw;
+    text-align: center;
+    line-height: 25px;
+    padding: 10vh 0 0 0;
+    box-shadow:  0vh 0vh 15vh 0vh #7e7878;
+}
+.experienciaMobile {
+    position: absolute;
+    z-index: 50;
+    top: -4vh;
+    left: 47%;
+    height: 12vh;
+    width: 12vh;
+}
+
+/*ESTILOS DE Cursos*/
+
+.bgCursos {
+    background-color: #e4e3e8f8;
+    height: 89vh;
+    border-bottom: 0;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    overflow: hidden;
+  }
+  .contenedorCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: -10vw;
+  }
+  .cardCurso {
+    margin-left: 11vw;
+    background-color: #feb2a89e;
+    opacity: 70%;
+    box-shadow:  0vh 0vh 15vh 0vh #7e7878;
+    color: rgb(39, 38, 38);
+  }
   
